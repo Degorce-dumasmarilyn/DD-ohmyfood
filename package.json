@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "npm install -g sass ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Degorce-dumasmarilyn/ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Degorce-dumasmarilyn/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/Degorce-dumasmarilyn/ohmyfood#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}

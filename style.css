@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2? family= Raleway:wght@800 &famille = Shrikhand & display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
 *,
 ::before,
 ::after {
@@ -11,7 +10,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/*NAVBAR*/
+main {
+  padding: 0 1rem;
+}
+
 header {
   font-family: "Shrikhand", cursive;
   text-align: center;
@@ -21,7 +23,7 @@ header {
   position: relative;
 }
 
-main .city {
+.city {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,26 +32,20 @@ main .city {
   text-align: center;
   padding: 0.5rem;
 }
-
-main .city i {
+.city i {
   font-size: 1.05rem;
 }
 
-/* EXPLORER */
 .explorer {
   text-align: center;
 }
-
 .explorer h2 {
   margin-top: 2rem;
   font-size: 2rem;
 }
-
 .explorer p {
   font-size: 1rem;
 }
-
-/*bouton*/
 .explorer button {
   border: 0;
   padding: 0.75rem 1.5rem;
@@ -58,15 +54,36 @@ main .city i {
   font-weight: 600;
   font-size: 1.2rem;
   color: #fff;
-  box-shadow: 0.25em 0.25rem 10px;
   cursor: pointer;
   transition: transform 200ms;
   margin-top: 1rem;
+  box-shadow: 0.25em 0.25rem 10px;
 }
-
 .explorer button:hover {
   transform: scale(1.02);
   opacity: 0.9;
+}
+
+.tuto ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+@media (max-width: 800px) {
+  .tuto ol {
+    flex-direction: column;
+  }
+}
+.tuto li {
+  background-color: #f6f6f6;
+  padding: 1rem 2rem;
+  border: 1px solid red;
+  flex-grow: 1;
+  border-radius: 1rem;
+  box-shadow: 0.25em 0.25rem 10px;
+}
+.tuto li:hover {
+  transform: scale(1.02);
 }
 
 /*# sourceMappingURL=style.css.map */

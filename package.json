@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Degorce-dumasmarilyn/ohmyfood.git"
   },
-  "author": "",
+  "author": "degorce-dumas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Degorce-dumasmarilyn/ohmyfood/issues"
@@ -22,6 +22,6 @@
     "cssnano": "^5.1.14",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
-    "sass": "^1.57.1"
+    "sass": "^1.58.1"
   }
 }

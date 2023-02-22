@@ -1,25 +1,22 @@
 {
   "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "Mon projet 3 ohmyfood",
+  "description": "projet 3",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch style.scss style.css",
-    "build":"postcss style.css -o ./build/style.min.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Degorce-dumasmarilyn/ohmyfood.git"
   },
-  "author": "degorce-dumas",
+  "author": "Degorce-dumas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Degorce-dumasmarilyn/ohmyfood/issues"
   },
   "homepage": "https://github.com/Degorce-dumasmarilyn/ohmyfood#readme",
   "devDependencies": {
-    "postcss": "^8.4.21",
-    "postcss-cli": "^10.1.0",
-    "sass": "^1.58.1"
+    "sass": "^1.58.3"
   }
 }
